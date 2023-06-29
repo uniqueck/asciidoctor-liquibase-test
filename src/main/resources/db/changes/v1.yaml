@@ -1,0 +1,15 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: tableTest
+      author: nvoxland
+      changes:
+        - createTable:
+            tableName: test
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  constraints:
+                    primaryKey: true
+

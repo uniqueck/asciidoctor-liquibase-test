@@ -1,0 +1,3 @@
+= Database Schema
+
+liquibase::partial$db/master.yaml[]

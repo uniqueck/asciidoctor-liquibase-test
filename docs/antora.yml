@@ -1,0 +1,6 @@
+name: antora-liquibase-test
+title: Antora x liquibase external repository
+version: main
+start_page: architecture:index.adoc
+nav:
+  - modules/architecture/nav.adoc
